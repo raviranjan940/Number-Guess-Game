@@ -124,7 +124,7 @@ button{
   }
 
   button {
-    margin-top: 0.5rem;
+    margin-top: -10px;
     font-size: 0.9rem;
   }
 }
