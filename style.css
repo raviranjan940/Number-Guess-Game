@@ -82,7 +82,7 @@ button{
   background-color: rgb(1, 32, 77);
   padding: 10px;
   margin-top: -5rem;
-  margin-buttom: 20px;
+  margin-buttom: 10px;
   border-radius: 0.5rem;
   font-size: 1rem;
   font-weight: 600;
@@ -104,7 +104,7 @@ button{
   #guess-input,
   #max-input {
     width: 90%;
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .guessSubmit,
@@ -125,7 +125,6 @@ button{
 
   button {
     margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
     font-size: 0.9rem;
   }
 }
