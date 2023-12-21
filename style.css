@@ -82,7 +82,7 @@ button{
   background-color: rgb(1, 32, 77);
   padding: 10px;
   margin-top: -5rem;
-  margin-buttom: 10px;
+  margin-buttom: 20px;
   border-radius: 0.5rem;
   font-size: 1rem;
   font-weight: 600;
@@ -124,8 +124,8 @@ button{
   }
 
   button {
-    margin-top: -2rem;
-    margin-bottom: 0.5rem
+    margin-top: -3rem;
+    margin-bottom: 1rem
     font-size: 0.9rem;
   }
 }
