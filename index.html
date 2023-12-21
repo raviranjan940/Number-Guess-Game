@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess Game</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+  <div class="wrapper">
+    <h1>Guess Number Game </h1>
+    <div class="input-form">
+      <label for="number" >Enter the maximum number: </label>
+      <div id="max-form">
+        <input type="number" id="max-input" >
+        <input type="submit" value="Submit" class="maxSubmit" onclick="maxInput()">
+      </div>
+      <br>
+      <label for="number">Guess the number: </label>
+      <div id="guess-form">
+        <input type="number" id="guess-input">
+        <input type="submit" value="Guess" class="guessSubmit" disabled>
+      </div>
+      <div class="result">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+      </div>
+    </div>
+  </div>
+  
+  <script src="./app.js"></script>
+</body>
+</html>
