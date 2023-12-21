@@ -104,7 +104,7 @@ button{
   #guess-input,
   #max-input {
     width: 90%;
-    font-size: 0.5rem;
+    font-size: 13px;
   }
 
   .guessSubmit,
